@@ -14,8 +14,7 @@ public class While {
 		System.out.println("-------------");
 
 		// Do-While
-		// Şart sağlanırsa while ile aynı işlemi yapar. Şart sağlanmasa bile döngü bir
-		// kez çalışır.
+		// Şart sağlanırsa while ile aynı işlemi yapar. Şart sağlanmasa bile döngü bir kez çalışır.
 		// Aşağıdaki örnek şartın sağlamadığı durumdur.
 		int j = 15;
 		do {
