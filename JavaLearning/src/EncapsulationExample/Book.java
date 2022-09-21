@@ -27,9 +27,18 @@ public class Book {
 		}
 
 	}
-	
-	public void pageSize() {
-		System.out.println(numberOfPage);
+
+	//Değeri başka classlara sunan getir metodu
+	public int getNumberOfPage() {
+		return numberOfPage;
 	}
+	
+	//Değeri başka classlardan parametre aracılığı ile değiştirebilen set metodu
+	public void setNumberOfPage(int numberOfPage) {
+		this.numberOfPage = numberOfPage;
+	}
+	
+	
+
 
 }
