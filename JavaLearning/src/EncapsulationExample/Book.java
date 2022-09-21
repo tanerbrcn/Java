@@ -5,8 +5,8 @@ public class Book {
 	//Kodumuzdaki kapsülleme mantığını numberOfPage değişkeni üzerinden anlatacak olursak.
 	//numberOfPage değişkenini private tanımlayarak başka classlardan erişimini engelledik.
 	//Constructor'dan parametre üzerinden numberOfPage değişkenine değer gönderdik ve aynı Constructor içinde kontrol ettirdik.
-	//numberOfPage değerini pageSize() metodu sayesinde dışarıdaki classlara sunduk.
-	//Yani numberOfPage değişkenini dışardan erişime kapalı halde kullanarak koruduk. Bu koruma durumuna sarmalama, kapsülleme denir.
+	//numberOfPage değerini getter metodu ile başka classlara sunduk. Setter metodu ile dışarıdaki classlardan değerini değiştirdik.
+	//Yani numberOfPage değişkenini dışardan direk erişime kapalı halde kullanarak koruduk. Bu koruma durumuna sarmalama, kapsülleme denir.
 	
 	
 	public String name, author, publisher; // adı,yazarı,yayıncı
